@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "category": "Health",
+        "amount": 1300.0,
+        "date": "2021-10-06",
+        "note": "Medical"
+    },
+    {
+        "id": 2,
+        "category": "Food",
+        "amount": 1325.0,
+        "date": "2012-10-06",
+        "note": "Medical"
+    },
+    {
+        "id": 3,
+        "category": "Movie",
+        "amount": 250.0,
+        "date": "2026-03-13",
+        "note": "nothong"
+    }
+]

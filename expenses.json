@@ -1,0 +1,14 @@
+[
+    {
+        "category": "Medical",
+        "amount": 12345.0,
+        "date": "2026-03-14",
+        "note": ""
+    },
+    {
+        "category": "Medical",
+        "amount": 1000.0,
+        "date": "2026-03-14",
+        "note": ""
+    }
+]
