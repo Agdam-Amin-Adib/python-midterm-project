@@ -17,11 +17,11 @@ class ExpenseApp(ctk.CTk):
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("blue")
 
-        # ---------------- HEADER ----------------
+    
 
         header = ctk.CTkLabel(
             self,
-            text="💰 Expense Management System",
+            text=" Expense Management System",
             font=("Segoe UI", 34, "bold")
         )
         header.pack(pady=(20, 5))
@@ -34,12 +34,12 @@ class ExpenseApp(ctk.CTk):
         )
         subheader.pack(pady=(0, 15))
 
-        # ---------------- MIDDLE FRAME ----------------
+    
 
         middle_frame = ctk.CTkFrame(self, corner_radius=15)
         middle_frame.pack(pady=10, fill="x", padx=20)
 
-        # ---------------- INPUT FRAME ----------------
+    
 
         input_frame = ctk.CTkFrame(middle_frame, corner_radius=10)
         input_frame.pack(side="left", padx=20, pady=20)
@@ -54,9 +54,8 @@ class ExpenseApp(ctk.CTk):
         self.date_entry.pack(pady=8, padx=10)
 
         self.note_entry = ctk.CTkEntry(input_frame, placeholder_text="Note")
-        self.note_entry.pack(pady=8, padx=10)
-
-        # ---------------- SUMMARY DASHBOARD ----------------
+        self.note_entry.pack(pady=8, padx=10
+                             
 
         summary_frame = ctk.CTkFrame(middle_frame, corner_radius=15)
         summary_frame.pack(side="right", padx=20, pady=20)
@@ -97,8 +96,7 @@ class ExpenseApp(ctk.CTk):
         ctk.CTkButton(button_frame, text="🥧 Pie Chart", fg_color="#FF6D00", command=self.show_chart).pack(side="left", padx=5)
         ctk.CTkButton(button_frame, text="📈 Bar Chart", fg_color="#009688", command=self.show_bar_chart).pack(side="left", padx=5)
 
-        # ---------------- TABLE ----------------
-
+    
         style = ttk.Style()
         style.theme_use("default")
 
