@@ -54,7 +54,7 @@ class ExpenseApp(ctk.CTk):
         self.date_entry.pack(pady=8, padx=10)
 
         self.note_entry = ctk.CTkEntry(input_frame, placeholder_text="Note")
-        self.note_entry.pack(pady=8, padx=10
+        self.note_entry.pack(pady=8, padx=10)
                              
 
         summary_frame = ctk.CTkFrame(middle_frame, corner_radius=15)

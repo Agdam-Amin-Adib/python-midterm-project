@@ -10,5 +10,11 @@
         "amount": 1000.0,
         "date": "2026-03-14",
         "note": ""
+    },
+    {
+        "category": "Utilities",
+        "amount": 6789.0,
+        "date": "2026-03-20",
+        "note": ""
     }
 ]
